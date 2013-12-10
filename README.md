@@ -9,19 +9,28 @@ Proprietary Methods (prop_methods) prints a formatted list of class methods, exc
 
 Place the following code in your Gemfile to install the gem in your development environment:
 
-  group :development do
-    gem 'prop_methods'
-  end
+```ruby
+group :development do
+  gem 'prop_methods'
+end
+```
 
-To return a pretty list of object-specific methods use the following syntax in your console or code:
+To return a pretty list of class-specific methods use the following syntax in your console or code:
 
-  Methods.prop({object})
+```ruby
+  Methods.prop(ClassName)
+```
 
-  For example: Methods.prop(Date)
+For example:
+```ruby
+  Methods.prop(Date)
+  Methods.prop(Toucan)
+```
 
 For all avaiable methods use the following syntax:
-
-  Methods.all({object})
+```ruby
+  Methods.all(ClassName)
+```
 
 ## That's all, folks.
 
