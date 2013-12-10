@@ -1,9 +1,9 @@
 
-# Proprietary Methods
+# WTF methods
 
 ## What it do?
 
-Proprietary Methods (prop_methods) is a ruby gem that prints a formatted list of class methods, excluding methods that apply to all objects.
+WTF methods (wtf_methods) is a Ruby gem that prints a formatted list of class methods, excluding ActiveRecord::Base (when applicable) and generic Object methods.
 
 ## How it do that?
 
@@ -11,25 +11,20 @@ Place the following code in your Gemfile to install the gem in your development 
 
 ```ruby
 group :development do
-  gem 'prop_methods'
+  gem 'wtf_methods'
 end
 ```
 
-To return a pretty list of class-specific methods use the following syntax in your console or code:
+To return a pretty list of class-specific methods, use the following in your console or code:
 
 ```ruby
-Methods.prop(ClassName)
+WTF[ClassName]
 ```
 
 For example:
 ```ruby
-Methods.prop(Date)
-Methods.prop(Toucan) # Assuming you have a class Toucan that does awesome stuff
-```
-
-For all avaiable methods use the following syntax:
-```ruby
-Methods.all(ClassName)
+WTF[Date]
+WTF[Toucan] # Assuming you have a Toucan class that does awesome stuff
 ```
 
 ## That's all, folks.
