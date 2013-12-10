@@ -24,7 +24,7 @@ Methods.prop(ClassName)
 For example:
 ```ruby
 Methods.prop(Date)
-Methods.prop(Toucan) # Assuming you have a class Toucan that flies and does other awesome stuff
+Methods.prop(Toucan) # Assuming you have a class Toucan that does awesome stuff
 ```
 
 For all avaiable methods use the following syntax:
