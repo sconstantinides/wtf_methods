@@ -1,6 +1,6 @@
 
-module WTF
-  def self.[](class_name)
+class Object
+  def wtf(class_name)
 
     method_array = []
 

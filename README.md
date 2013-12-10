@@ -18,13 +18,13 @@ end
 To return a pretty list of class-specific methods, use the following in your console or code:
 
 ```ruby
-WTF[ClassName]
+wtf ClassName # or wtf(ClassName)
 ```
 
 For example:
 ```ruby
-WTF[Date]
-WTF[Toucan] # Assuming you have a Toucan class that does awesome stuff
+wtf Date
+wtf Toucan # assuming you have a Toucan class that does awesome stuff
 ```
 
 ## That's all, folks.
