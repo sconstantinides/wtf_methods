@@ -30,8 +30,9 @@ wtf Toucan # assuming you have a Toucan class that does awesome stuff
 ## Wait...doesn't #methods do this?
 
 Nope. Here's an example for the Math class:
-```ruby
-  > wtf Math
+```
+> wtf Math
+
   ====================
    CLASS METHODS
   --------------------
