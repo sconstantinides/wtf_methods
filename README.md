@@ -72,7 +72,3 @@ Nope. Here's an example for the Math class:
    upcase
   ====================
 ```
-
-## That's all, folks.
-
-Please send any questions or suggestions to sconstantinides@gmail.com
